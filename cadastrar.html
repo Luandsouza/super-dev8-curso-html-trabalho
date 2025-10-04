@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastrar</title>
+</head>
+
+<body>
+    <form action="login.html">
+        <h2>Cadastro</h2>
+
+        <div>
+            <label for="campo-email">E-mail</label>
+            <input type="text" id="campo-email" name="email">
+        </div>
+        <div>
+            <label for="campo-senha">Senha</label>
+            <input type="password" id="campo-senha" name="senha">
+        </div>
+        <div>
+            <label for="campo-cpf">CPF</label>
+            <input type="text" id="campo-cpf" name="cpf">
+        </div>
+        <div>
+            <label for="campo-cargo">Cargo</label>
+            <select name="campo-cargo" id="campo-cargo" name="cargo">
+                <option disabled selected>Escolha uma opção</option>
+                <option value="coordenador">Coordenador</option>
+                <option value="aluno">Aluno</option>
+                <option value="professor">Professor</option>
+            </select>
+        </div>
+        <div>
+            <label for="campo-nome">Nome</label>
+            <input type="text" id="campo-nome" name="nome">
+        </div>
+        <div>
+            <label for="campo-sobrenome">Sobrenome</label>
+            <input type="text" id="campo-sobrenome" name="sobrenome">
+        </div>
+        <div>
+            <label for="campo-justificativa" style="display: block;">Justificativa</label>
+            <textarea name="justificativa" id="campo-justificativa" rows="10" cols="60"></textarea>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+</body>
+
+</html>
